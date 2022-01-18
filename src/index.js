@@ -97,7 +97,7 @@ import './index.css';
     jumpTo(step) {
         this.setState({
             stepNumber: step,
-            xIsNext: (step % 2) == 0,
+            xIsNext: (step % 2) === 0,
         });
     }
 
